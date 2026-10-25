@@ -450,11 +450,11 @@ html[data-theme="dark"] .hero{background:radial-gradient(circle at 12% 0%,rgba(2
    ⚙️ الإعداد الوحيد المطلوب — ضع رابط السكربت هنا:
 
    انقر نقرتين متتاليتين على العبارة العربية في السطر التالي
-   (الصق_رابط_السكربت_هنا) لتتحدد كلها، ثم اضغط Ctrl+V
+   (https://script.google.com/macros/s/AKfycbzDCuuDMrpLvFcmVlyTxGVnVlNltvkiGTNcUyfeNuOUpRWXktMfV3QiD1PJEb2HU6NbOA/exec) لتتحدد كلها، ثم اضغط Ctrl+V
    فيحلّ رابطك (المنتهي بـ /exec) محلّ العبارة. ثم احفظ وارفع الملف.
    ================================================================ */
 
-const SERVER_URL = 'الصق_رابط_السكربت_هنا';
+const SERVER_URL = 'https://script.google.com/macros/s/AKfycbzDCuuDMrpLvFcmVlyTxGVnVlNltvkiGTNcUyfeNuOUpRWXktMfV3QiD1PJEb2HU6NbOA/exec';
 
 const SRV='k_server', TOK='k_token';
 const SERVER_RE=/^https:\/\/script\.google\.com\/.+\/exec$/;
@@ -1639,7 +1639,7 @@ async function renderAdmin(v){
       <div class="pre" dir="ltr" id="ln_line2" style="word-break:break-all">${esc(srv())}</div>
       <button class="btn ghost" id="ln_cp2" style="margin-top:8px">نسخ الرابط</button>
       <p class="hint" style="margin-top:8px">٢. على GitHub: مستودع <code>kunnasha</code> ← <code>index.html</code> ← ✏️ (Edit).<br>
-      ٣. <b>Ctrl+F</b> وابحث عن <code>الصق_رابط_السكربت_هنا</code>.<br>
+      ٣. <b>Ctrl+F</b> وابحث عن <code>https://script.google.com/macros/s/AKfycbzDCuuDMrpLvFcmVlyTxGVnVlNltvkiGTNcUyfeNuOUpRWXktMfV3QiD1PJEb2HU6NbOA/exec</code>.<br>
       ٤. انقر على العبارة العربية <b>نقرتين متتاليتين</b> لتتحدد، ثم الصق الرابط (<b>Ctrl+V</b>)، ثم <b>Commit changes</b>.<br>
       (أو افعل هذا في ملف <code>index.html</code> على جهازك بالمفكرة قبل رفعه.)</p></details>
     <details class="more"><summary>أو بلا كود: ملف server.txt على GitHub</summary>
